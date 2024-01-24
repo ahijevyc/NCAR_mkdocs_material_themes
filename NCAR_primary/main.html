@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
-<!-- consistent site name across pages -->
-{% block htmltitle %}
-  <title>{{ config.site_name }}</title>
-{% endblock %}
+<!-- include page short_title *after* site name, if it exists -->
+{%- block htmltitle %}
+  <title>{{ config.site_name }}{% if page and page.meta and page.meta.short_title and not page.is_homepage %} - {{ page.meta.short_title }}{% endif %}</title>
+{%- endblock %}
 
 <!-- https://www.mkdocs.org/user-guide/customizing-your-theme/ -->
 {% block libs %}
