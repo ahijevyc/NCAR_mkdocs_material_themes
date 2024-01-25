@@ -6,6 +6,10 @@
 
 [data-md-color-scheme="default"] {
 
+  /* Default properties & color shades */
+    --md-text-font: "Poppins";
+    --md-code-font: "Roboto Mono";
+
   /* Background Image */
   --bg-image:                    url('../assets/images/NCAR-Waves.png');
 
