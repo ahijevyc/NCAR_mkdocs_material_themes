@@ -4,9 +4,9 @@
 ## Usage
 **⚠️ WARNING: you probably do not want to clone this repo directly**
 
-This repository is intended to be included as a `git submodule` in derived projects.  The easiest way to get started using this theme to use our template repository, [ncar-mkdocs-template](https://ncar-mkdocs-template.readthedocs.io/en/latest/) which includes this theme as a submodule.
+This repository is intended to be included as a `git submodule` in derived projects.  
 
-[This guide](https://ncar-mkdocs-template.readthedocs.io/en/latest/getting-started/) provides a step-by-step guide to creating a new project using the template repository above. 
+The easiest way to get started using this theme to use our template repository, [ncar-mkdocs-template](https://ncar-mkdocs-template.readthedocs.io/en/latest/) which includes this theme as a submodule. [This page](https://ncar-mkdocs-template.readthedocs.io/en/latest/getting-started/) provides a step-by-step guide to creating a new project using this template repository. 
 
 ## License
 
