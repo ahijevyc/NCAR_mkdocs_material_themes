@@ -41,7 +41,7 @@ theme:
     - announce.dismiss
 
   logo : assets/images/CISL-contemp-logo-white-square.png
-  favicon : assets/images/CISL-logo.svg
+  favicon : assets/images/CISL_logo.svg
 
   palette:
     # Palette toggle for automatic mode

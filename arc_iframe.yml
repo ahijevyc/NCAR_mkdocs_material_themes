@@ -40,7 +40,5 @@ theme:
     #- toc.integrate   # one toc on left only
     - announce.dismiss
 
-  favicon: assets/images/CISL_logo.svg
-
   palette:
     scheme: default
