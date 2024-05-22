@@ -110,6 +110,11 @@ body {
   background-attachment: fixed;
 }
 
+.md-nav--secondary .md-nav__title {
+  background: unset;
+  box-shadow: unset;
+}
+
 /* siteimprove accessibility tweaks */
 .md-nav__link.md-nav__link--active {
     font-weight: bold;

@@ -215,15 +215,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media screen and (min-width: 60em) {
-  .md-nav--secondary .md-nav__title {
-    background: unset;
-    box-shadow: unset;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+
+.md-nav--secondary .md-nav__title {
+  background: unset;
+  box-shadow: unset;
 }
 
 table {
