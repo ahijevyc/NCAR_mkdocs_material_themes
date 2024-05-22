@@ -210,10 +210,20 @@
 
 body {
   background-image: var(--bg-image);
-  background-size: 50%;
-  background-position: right top;
+  background-size: 14rem 70rem;
+  background-position: right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+@media screen and (min-width: 60em) {
+  .md-nav--secondary .md-nav__title {
+    background: unset;
+    box-shadow: unset;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
 }
 
 table {

@@ -104,8 +104,8 @@
 
 body {
   background-image: var(--bg-image);
-  background-size: 50%;
-  background-position: right top;
+  background-size: 14rem 70rem;
+  background-position: right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
