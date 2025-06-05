@@ -26,8 +26,8 @@ theme:
     - navigation.top          # back to top button
     - navigation.path         # adding path to the top
     # - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
+    - navigation.prune
+    - navigation.sections
     # - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
@@ -36,8 +36,8 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.follow
-    #- toc.integrate   # one toc on left only
+    - toc.follow
+    # - toc.integrate   # one toc on left only
     - announce.dismiss
 
   logo : assets/images/CISL-contemp-logo-white-square.png

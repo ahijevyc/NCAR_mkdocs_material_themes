@@ -39,6 +39,10 @@
   --md-code-hl-variable-color:   rgb(1,33,105);  /* PMS 280 (Deep Blue) */
   --md-code-hl-string-color:     rgb(0,121,124); /* PMS 3557 (UCAR Green) */
 
+  /* Misc colors */
+  --md-title-color:              rgb(11,33,57);
+  --md-title-small:              rgb(219,226,233); /* PMS 649 (Background Blue 3) */
+
 
   /* Custom colorind for admonition boxes */
   /* -------------------------- */
@@ -142,7 +146,8 @@
   /* Misc colors */
   --iframe-bg-color:                   rgb(187,188,188); /* PMS Cool Gray 4 */ /*rgb(217,217,214); /* PMS Cool Gray 1 */
   --md-typeset-table-color:            rgb(83,86,90);    /* PMS Cool Gray 11 */
-
+  --md-title-color:                    rgb(219,226,233); /* PMS 649 (Background Blue 3) */
+  --md-title-small:                    rgb(219,226,233); /* PMS 649 (Background Blue 3) */
 
   /* Custom colorind for admonition boxes */
   /* -------------------------- */
@@ -230,6 +235,36 @@ iframe {
   background-color: var(--iframe-bg-color);
 }
 
+/* Nav formatting */
+
+.md-main__inner { 
+  margin-top: 0rem;
+}
+
+.md-sidebar__inner {
+  margin-right: 16px;
+}
+
+.md-nav__home {
+  color: var(--md-title-color);
+}
+.md-nav__home:hover {
+  color: var(--md-accent-fg-color);
+}
+
+.md-nav__title, .md-nav__item--section {
+  font-size: medium;
+  color: var(--md-title-color);
+
+}
+
+.md-nav__item--section {
+  padding-bottom: 16px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--md-primary-fg-color);
+}
+
 /* improve accessibility tweaks: makes the current section bold in the navigation */
 .md-nav__link.md-nav__link--active {
     color: var(--md-typeset-a-color);
@@ -252,4 +287,30 @@ iframe {
   0% {background-color: #ffff2080;}
   90% {background-color: #ffff2080;}
   100% {background-color: #ffff0000;}
+}
+
+/* Media queries for smaller displays */
+
+@media screen and (max-width: 76.2344em){
+  .md-nav__home {
+    font-size: medium;
+    color: var(--md-title-small);
+    padding-top: 10px;
+  }
+  .md-nav__home:hover {
+    font-size: medium;
+    color: inherit;
+    padding-top: 10px;
+  }
+
+  .md-nav--primary .md-nav__title {
+    padding: 3.6rem .8rem 2rem;
+  }
+
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-nav__item--section>.md-nav__link[for] {
+        color: inherit;
+    }
 }
